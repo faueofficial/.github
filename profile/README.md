@@ -1,53 +1,102 @@
 # FAUE
 
-**Global & Cultural Fashion Intelligence Platform**
+**Fashion intelligence for African style.**
 
-### The Problem: The "Nothing to Wear" Paradox
+Not a shop. Not a mood board. A system that knows what you own, what suits you,
+what the occasion demands, and what the weather is doing — and gives you a
+specific answer with a reason attached.
 
-The modern wardrobe is fragmented. Despite having closets full of clothes and social media boards full of inspiration, deciding what to wear for specific events—from a corporate pitch to a vibrant Owambe—remains a high-friction, stressful experience.
+---
 
-Current fashion tech either offers generic e-commerce recommendations that ignore what you already own, or requires tedious, manual cataloging of your closet. Furthermore, users cannot easily visualize how an outfit will look on their specific body type without physically trying it on.
+### The problem
 
-### Our Mission: The Intelligence Layer for Fashion
+Getting dressed well in Nigeria costs more time and money than it should.
 
-We are **FAUE**, and we are building the definitive **Global & Cultural Fashion Intelligence Platform** for everyday and occasion wear.
+**Ready-to-wear** discovery is scattered across dozens of brand pages with no way
+to see how pieces combine. **Bespoke** has a worse gap: between *"I bought this
+fabric"* and *"I know what to tell my tailor"* sits hours of browsing,
+screenshots forwarded to WhatsApp groups, and miscommunication that turns into a
+garment nobody wears — at ₦30,000–80,000 a time, several times a year.
 
-Our mission is to eliminate the friction of getting dressed. We have engineered a personalized ecosystem that understands your unique "Style DNA," instantly syncs with your visual inspiration, intelligently searches your existing wardrobe, and generates highly curated outfits—complete with privacy-first Virtual Try-On (VTO).
+Neither path understands the context that actually matters: Owambe dress codes,
+Aso-Ebi coordination, switching between native and corporate registers,
+harmattan changing what fabric is bearable, or the fact that a large-motif
+Ankara and a heavily seamed cut destroy each other.
 
-### How It Works: The Three Pillars of FAUE
+Underneath all of it, most people already own clothes they never wear, because
+they cannot see the combinations.
 
-FAUE formulates three core technical domains into a cohesive, secure, and intuitive architecture:
+**The problem is not a shortage of inspiration. It is the absence of a decision.**
 
-1. **Context-Aware Generative Styling (Atelier):** Our proprietary AI engine understands both global trends (streetwear, minimalist, corporate) and rich cultural contexts (Aso-Ebi, Ankara, Agbada). It dynamically builds outfits based on the user's specific event, gender, and personal Style DNA.
+---
 
-2. **Semantic Wardrobe Indexing (The Archive):** We don't rely on manual text tags. By leveraging advanced visual AI and similarity search, we transform uploaded clothing and synced social media boards into a searchable digital wardrobe. When the AI recommends a specific piece, the Archive mathematically matches that description to the exact item you already own.
+### What makes it different
 
-3. **Privacy-Preserving Virtual Try-On (VTO):** Users can see exactly how an AI-generated fit looks on their body. Because we handle sensitive personal images, our architecture is built on strict **Privacy-by-Design** principles. VTO is processed securely, and personal imagery is treated as ephemeral data to protect user privacy at all times.
+**It works with what you already have.** Your wardrobe is the starting point,
+not a catalogue. FAUE recommends from clothes you own before it ever suggests
+something to buy.
 
-### Current Status & Roadmap
+**It handles fabric, not just garments.** The bespoke path — fabric to style to
+tailor — is a real, frequent, expensive problem nobody has automated. Photograph
+what you bought, get native style suggestions, send one to your tailor.
 
-We are currently building out the FAUE V1 MVP infrastructure using a lean, microservice-based architecture designed for high scalability and rapid iteration.
+**It is culturally native.** Owambe is a first-class occasion. Aso-Oke drapes
+differently from chiffon and the system knows it. Harmattan is a weather signal.
+None of this is a localisation layer bolted onto a Western product — it is the
+product.
 
-* **Phase 1: Foundation & Identity:** Launching the centralized Auth gateway and our viral "Style DNA" visual onboarding engine.
+---
 
-* **Phase 2: The Digital Wardrobe:** Deploying secure image upload pipelines, background social sync workers, and semantic matching infrastructure.
+### How it works
 
-* **Phase 3: The Intelligence Engine:** Rolling out the core AI styling logic, merging global and local fashion contexts with real-world catalogs.
+**Style DNA.** Six questions produce a persona and a weighting across six style
+archetypes. Deterministic, explainable, and shareable — no model involved in the
+scoring.
 
-* **Phase 4: VTO Integration:** Launching the asynchronous Virtual Try-On pipeline and entering closed beta.
+**Your wardrobe, understood.** Photograph what you own. Visual models index it so
+that when a look calls for a structured neutral top, it matches the one already
+in your closet rather than describing one you would have to buy.
 
-### Explore Our Work
+**Looks with reasons.** Rules define what is legal to recommend; the model
+selects, assembles and explains within that. FAUE will never show you a piece
+you do not own or an outfit the rules ruled out — and every look carries a
+*"why this works for you."*
 
-Dive deeper into our vision and progress as we build the future of fashion tech.
+**Privacy as architecture.** Consent is denied by default for every purpose.
+Faces are redacted before an image reaches any model. Nothing sensitive is sent
+to a model, and revoking a permission destroys the data derived under it — not
+just the flag. Users hand over photographs of themselves and their homes; that
+is the reason, not a regulator.
 
-* 📖 **Read our Architecture Docs:** *(Link coming soon)*
+---
 
-* 📱 **Try the Style DNA Quiz:** *(Link coming soon)*
+### Where we are
 
-* 🐦 **Follow us on X:** [@faueofficial](https://x.com/faueofficial)
+Building the MVP: Style DNA, wardrobe, look generation, fabric styling, tailor
+share, and the privacy layer underneath all of it.
 
-* 📸 **Follow us on Instagram:** [@faueofficial](https://instagram.com/faueofficial)
+| Phase | What it proves |
+|---|---|
+| **MVP — the styling loop** | That generated, explained, culturally-correct looks drive action and return |
+| **Year one — the styling layer** | FAUE answers *"what do I wear?"* better than you can. Retention from data nobody else has |
+| **Year two — the commerce layer** | Brands and catalogues arrive once FAUE drives demonstrable traffic |
+| **Year three — the production layer** | The tailor network closes the loop: fabric → style → vetted tailor → finished garment |
 
-### Get Involved
+Virtual try-on and the professional tools for stylists and tailors come after the
+core loop is proven, not before. Building the next phase before the current one
+works is how a product acquires features nobody uses.
 
-We are building a foundational platform at the intersection of AI, culture, and fashion. If you're interested in contributing to the future of personalized styling, please reach out or check our open issues!
+---
+
+### Explore
+
+* 🐦 **X:** [@faueofficial](https://x.com/faueofficial)
+* 📸 **Instagram:** [@faueofficial](https://instagram.com/faueofficial)
+* ✉️ **Contact:** hello@faueofficial.com
+
+---
+
+### Get involved
+
+We are building at the intersection of AI, culture, and fashion. If that is your
+kind of problem, reach out.
